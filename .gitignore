@@ -1,0 +1,12 @@
+/~
+/LP_TTA_DEMO/
+/backup/
+/features_zip/
+/features/*
+/clip/
+/data/
+/feature_save.py
+/utils/__init__.py
+/utils/tools.py
+*/__pycache__/
+*/.DS_Store
