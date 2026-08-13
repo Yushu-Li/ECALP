@@ -1,3 +1,6 @@
+
+</think>
+
 # Efficient and Context-Aware Label Propagation for Zero-/Few-Shot Training-Free Adaptation of Vision-Language Model
 
 This repository provides the official PyTorch implementation of our ICLR 2025 paper:    
@@ -7,7 +10,6 @@ This repository provides the official PyTorch implementation of our ICLR 2025 pa
 [![](https://img.shields.io/badge/arXiv-red)](https://arxiv.org/abs/2412.18303)
 [![](https://img.shields.io/badge/OpenReview-blue)](https://openreview.net/forum?id=D10yarGQNk) <br>
 > Authors: *[<ins>**Yushu Li***</ins>](https://yushu-li.github.io/), [<ins>**Yongyi Su***</ins>](https://yysu.site/), [<ins>**Adam Goodge**</ins>](https://agoodge.github.io/), [<ins>**Kui Jia**</ins>](http://kuijia.site/), [<ins>**Xun Xu†**</ins>](https://scholar.google.com/citations?user=pi0SGQUAAAAJ)*   
-
 
 ## 🔍 Overview
 
@@ -23,7 +25,6 @@ This repository contains the code for ECALP, using pre-extracted image and text 
 * Fine-Grained Categorization Tasks
 * Style-Transfer Tasks
 * Out-of-Distribution Tasks
-
 
 
 ## 📐 Prerequisites
@@ -85,7 +86,7 @@ options:
 
 ### Fine-Grained Tasks: 
 
-- Available Datasets:  I/Flower102/DTD/Pets/Cars/UCF101/Caltech101/Food101/SUN397/Aircraft/eurosat
+- Available Datasets: Flower102/DTD/Pets/Cars/UCF101/Caltech101/Food101/SUN397/Aircraft/eurosat
 
 - Example: To run ECALP with CLIP-VIT-B/16 on the DTD dataset in zero-shot mode:
 ```
